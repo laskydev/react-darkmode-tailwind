@@ -1,0 +1,29 @@
+{
+  "name": "react-darkmode-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "./src/Index.tsx"
+  ],
+  "scripts": {
+    "eslint": "eslint --fix",
+    "prettier": "prettier --write ./src"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "use-prefers-color-scheme": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "prettier": "^2.6.2"
+  }
+}
